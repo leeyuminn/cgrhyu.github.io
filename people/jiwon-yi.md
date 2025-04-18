@@ -12,7 +12,8 @@ show_tile: false
 <h2>Jiwon Yi</h2>
 
 B.S in Computer Science, Hanyang University, Seoul, Korea, Feb.2023<br>
-Room 111, R&D Building<br>
+M.S in Computer Science, Hanyang University, Seoul, Korea, Feb.2025<br>
+Room 702, R&D Building<br>
 e-mail: babap8514@gmail.com
 <p/>
 

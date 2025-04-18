@@ -58,6 +58,15 @@ nav-menu: true
 		palkan21@hanyang.ac.kr<br/>
 	</p>
 	</div>
+
+	<div class="4u 12u$(small)">
+	<p>
+		<span class="image left"><img src="assets/people/jiwon-yi/jiwon-yi.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
+		<b><a href="people/jiwon-yi.html">Jiwon Yi</a></b>
+		<font size="3">이지원</font><br/>
+		babap8514@gmail.com<br/>
+	</p>
+	</div>
 </div>
 
 <p/>
@@ -75,23 +84,13 @@ nav-menu: true
 	
 	<div class="4u 12u$(small)">
 	<p>
-		<span class="image left"><img src="assets/people/jiwon-yi/jiwon-yi.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
-		<b><a href="people/jiwon-yi.html">Jiwon Yi</a></b>
-		<font size="3">이지원</font><br/>
-		babap8514@gmail.com<br/>
-	</p>
-	</div>
-
-	<div class="4u 12u$(small)">
-	<p>
 		<span class="image left"><img src="assets/people/bokyeong-jang/bokyeong-jang.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
 		<b><a href="people/bokyeong-jang.html">Bokyeong Jang</a></b>
 		<font size="3">장보경</font><br/>
 		jbok6825@naver.com<br/>
 	</p>
 	</div>
-</div>
-<div class="row">
+	
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/eunho-jung/eunho-jung.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -100,6 +99,8 @@ nav-menu: true
 		jho6394@hanyang.ac.kr<br/>
 	</p>
 	</div>
+</div>
+<div class="row">
 	
 	<div class="4u 12u$(small)">
 	<p>
@@ -118,8 +119,7 @@ nav-menu: true
 		igotaspot426@gmail.com<br/>
 	</p>
 	</div>
-</div>
-<div class="row">
+	
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/hauk-nam/hauk-nam.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -128,6 +128,8 @@ nav-menu: true
 		namhoyog@naver.com<br/>
 	</p>
 	</div>
+</div>
+<div class="row">
 
 	<div class="4u 12u$(small)">
     <p>
