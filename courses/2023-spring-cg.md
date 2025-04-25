@@ -65,6 +65,13 @@ Unlike in previous years, modern OpenGL is used in the lab sessions and assignme
 [12 - Lab - Texture Mapping]: https://gitcgr.hanyang.ac.kr/courses/2023-spring-cg/lecture-slides/12 - Lab - Texture Mapping.pdf
 [13 - Scan Conversion, Visibility]: https://gitcgr.hanyang.ac.kr/courses/2023-spring-cg/lecture-slides/13 - Scan Conversion, Visibility.pdf
 
+## Exams
+
+[Midterm], [Final]
+
+[Midterm]: https://gitcgr.hanyang.ac.kr/courses/2023-spring-cg/exams/midterm-cg-2023.pdf
+[Final]: https://gitcgr.hanyang.ac.kr/courses/2023-spring-cg/exams/final-cg-2023.pdf
+
 ## Projects
 
 | Project 1: Basic OpenGL Viewer |

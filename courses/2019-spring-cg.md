@@ -56,6 +56,18 @@ show_tile: false
 [13-reference-rasterization,clipping]: https://gitcgr.hanyang.ac.kr/courses/2019-spring-cg/lecture-slides/13-reference-rasterization,clipping.pdf
 [13-reference-RayTracing]: https://gitcgr.hanyang.ac.kr/courses/2019-spring-cg/lecture-slides/13-reference-RayTracing.pdf
 
+## Exams
+
+[Midterm], [Final]
+
+[Midterm]: https://gitcgr.hanyang.ac.kr/courses/2019-spring-cg/exams/midterm-cg-2019.pdf
+[Final]: https://gitcgr.hanyang.ac.kr/courses/2019-spring-cg/exams/final-cg-2019.pdf
+
+[Midterm (2018)], [Final (2018)]
+
+[Midterm (2018)]: https://gitcgr.hanyang.ac.kr/courses/2018-spring-cg/exams/midterm-cg-2018.pdf
+[Final (2018)]: https://gitcgr.hanyang.ac.kr/courses/2018-spring-cg/exams/final-cg-2018.pdf
+
 ## Class Assignments
 
 | [Class Assignment 1: Basic OpenGL Viewer & Drawing a Hierarchical Model] |
