@@ -59,6 +59,13 @@ Students will practice the principles using the legacy OpenGL API in the lab ses
 [13 - reference-rasterization,clipping]: https://gitcgr.hanyang.ac.kr/courses/2022-spring-cg/lecture-slides/13 - reference-rasterization,clipping.pdf
 [13 - reference-RayTracing]: https://gitcgr.hanyang.ac.kr/courses/2022-spring-cg/lecture-slides/13 - reference-RayTracing.pdf
 
+## Exams
+
+[Midterm], [Final]
+
+[Midterm]: https://gitcgr.hanyang.ac.kr/courses/2022-spring-cg/exams/midterm-cg-2022.pdf
+[Final]: https://gitcgr.hanyang.ac.kr/courses/2022-spring-cg/exams/final-cg-2022.pdf
+
 ## Class Assignments
 
 | Class Assignment 1: Basic OpenGL Viewer |
