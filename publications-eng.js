@@ -1,5 +1,18 @@
 var publications_eng = [
 	{
+		'title': 'PhysicsFC: Learning User-Controlled Skills for a Physics-Based Football Player Controller',
+		'authors': 'Minsu Kim, Eunho Jung, Yoonsang Lee',
+		'conference_journal': 'SIGGRAPH',
+		'year': 2025,
+		'conference_journal_full': 'Accepted to ACM Transactions on Graphics (SIGGRAPH 2025)',
+		'representative_img': 'assets/publications/2025-physicsfc/thumb-physicsfc.jpg',
+		'video_iframe': '<iframe width="896" height="504" src="https://www.youtube.com/embed/dSfW8EvV5CA" title="PhysicsFC: Learning User-Controlled Skills for a Physics-Based Football Player Controller" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+		'project_page': 'publications/2025-physicsfc.html',
+		'type': 'paper',
+        '__additional': '<a href="" rel="noopener noreferrer" target="_blank">[publisher]</a> <a href="https://arxiv.org/abs/2504.21216" rel="noopener noreferrer" target="_blank">[arXiv]</a> <a href="https://youtu.be/dSfW8EvV5CA" rel="noopener noreferrer" target="_blank">[video]</a> <a href="" rel="noopener noreferrer" target="_blank">[slides-pdf]</a> <a href="" rel="noopener noreferrer" target="_blank">[slides-pptx]</a>',
+        'additional': '[publisher] <a href="https://arxiv.org/abs/2504.21216" rel="noopener noreferrer" target="_blank">[arXiv]</a> <a href="https://youtu.be/dSfW8EvV5CA" rel="noopener noreferrer" target="_blank">[video]</a> [slides-pdf] [slides-pptx]',
+	},
+	{
 		'title': 'Utilizing Motion Matching with Deep Reinforcement Learning for Target Location Tasks',
 		'authors': 'Jeongmin Lee, Taesoo Kwon, Hyunju Shin, Yoonsang Lee',
 		'conference_journal': 'Eurographics',
@@ -21,7 +34,7 @@ var publications_eng = [
 		'video_iframe': '<iframe width="560" height="315" src="https://www.youtube.com/embed/oY_6dgF9P7k" title="Adaptive Tracking of a Single-Rigid-Body Character in Various Environments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'project_page': 'http://calab.hanyang.ac.kr/papers/adaptiveSRB.html',
 		'type': 'paper',
-        'additional': '<a href="https://dl.acm.org/doi/10.1145/3610548.3618187" rel="noopener noreferrer" target="_blank">[publisher]</a> <a href="https://arxiv.org/abs/2308.07491" rel="noopener noreferrer" target="_blank">[arXiv]</a> <a href="https://youtu.be/oY_6dgF9P7k" rel="noopener noreferrer" target="_blank">[video]</a> <a href="https://github.com/taesoobear/IPCDNNwalk" rel="noopener noreferrer" target="_blank">[code]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2023-adaptive-tracking/adaptive-v3.pdf" rel="noopener noreferrer" target="_blank">[slides-pdf]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2023-adaptive-tracking/adaptive-v3.pptx" rel="noopener noreferrer" target="_blank">[slides-pptx]</a>',
+        'additional': '<a href="https://dl.acm.org/doi/10.1145/3610548.3618187" rel="noopener noreferrer" target="_blank">[publisher]</a> <a href="https://arxiv.org/abs/2308.07491" rel="noopener noreferrer" target="_blank">[arXiv]</a> <a href="https://youtu.be/oY_6dgF9P7k" rel="noopener noreferrer" target="_blank">[video]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2023-adaptive-tracking/adaptive-v3.pdf" rel="noopener noreferrer" target="_blank">[slides-pdf]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2023-adaptive-tracking/adaptive-v3.pptx" rel="noopener noreferrer" target="_blank">[slides-pptx]</a> <a href="https://github.com/taesoobear/IPCDNNwalk" rel="noopener noreferrer" target="_blank">[code]</a>',
 	},
 	{
 		'title': 'Learning Human-like Locomotion Based on Biological Actuation and Rewards',
