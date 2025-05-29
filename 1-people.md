@@ -25,19 +25,12 @@ nav-menu: true
 
 <p/>
 
-<h2>Post Doc.</h2>
+<!-- <h2>Post Doc.</h2>
 <div class="row">
-	<div class="4u 12u$(small)">
-	<p>
-		<span class="image left"><img src="assets/people/wanuk-choi/wanuk-choi.png" style="max-width: 200px; height: auto; " alt="" /></span>
-		<b><a href="people/wanuk-choi.html">Wanuk Choi</a></b>
-		<font size="3">최완욱</font><br/>
-		dhksdnr2003@hanyang.ac.kr<br/>
-	</p>
-	</div>
+	
 </div>
 
-<p/>
+<p/> -->
 
 <h2>Ph.D. Students</h2>
 <div class="row">
@@ -72,16 +65,7 @@ nav-menu: true
 <p/>
 
 <h2>M.S. Students</h2>
-<div class="row">
-	<div class="4u 12u$(small)">
-	<p>
-		<span class="image left"><img src="assets/people/minji-kang/minji-kang.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
-		<b><a href="people/minji-kang.html">Minji Kang</a></b>
-		<font size="3">강민지</font><br/>
-		alswl7763@hanyang.ac.kr<br/>
-	</p>
-	</div>
-	
+<div class="row">	
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/bokyeong-jang/bokyeong-jang.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -99,9 +83,7 @@ nav-menu: true
 		jho6394@hanyang.ac.kr<br/>
 	</p>
 	</div>
-</div>
-<div class="row">
-	
+
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/chanwoo-baek/chanwoo-baek.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -110,7 +92,8 @@ nav-menu: true
 		bcw0430@hanyang.ac.kr<br/>
 	</p>
 	</div>
-
+</div>
+<div class="row">
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/minsu-kim/minsu-kim.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -128,8 +111,6 @@ nav-menu: true
 		namhoyog@naver.com<br/>
 	</p>
 	</div>
-</div>
-<div class="row">
 
 	<div class="4u 12u$(small)">
     <p>
@@ -139,7 +120,8 @@ nav-menu: true
 		yum0315@hanyang.ac.kr<br/>
     </p>
     </div>
-
+</div>
+<div class="row">
 	<div class="4u 12u$(small)">
     <p>
 		<span class="image left"><img src="assets/people/kyungeon-byeon/kyungeon-byeon.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -200,21 +182,43 @@ nav-menu: true
 <div class="row">
 	<div class="4u 12u$(small)">
 	<p>
+		<span class="image left"><img src="assets/people/wanuk-choi/wanuk-choi.png" style="max-width: 200px; height: auto; " alt="" /></span>
+		<b><a href="people/wanuk-choi.html">Wanuk Choi</a></b>
+		<font size="3">최완욱</font><br/>
+		<!--dhksdnr2003@hanyang.ac.kr<br/>-->
+		Post Doc. until Apr. 2025<br/>
+	</p>
+	</div>
+
+	<div class="4u 12u$(small)">
+	<p>
+		<span class="image left"><img src="assets/people/minji-kang/minji-kang.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
+		<b><a href="people/minji-kang.html">Minji Kang</a></b>
+		<font size="3">강민지</font><br/>
+		<!--alswl7763@hanyang.ac.kr<br/>-->
+		M.S., Aug. 2024<br/>
+		Researcher until Apr. 2025<br/>
+	</p>
+	</div>
+
+	<div class="4u 12u$(small)">
+	<p>
 		<span class="image left"><img src="assets/people/jeongmin-lee/jeongmin-lee.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
 		<b><a href="people/jeongmin-lee.html">Jeongmin Lee</a></b>
 		<font size="3">이정민</font><br/>
 		<!--j0064423@gmail.com<br/>-->
-		M.S. 2022<br/>
+		M.S., Aug. 2022<br/>
 	</p>
 	</div>
-
+</div>
+<div class="row">
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/chaejun-sohn/chaejun.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
 		<b><a href="people/chaejun-sohn.html">Chaejun Sohn</a></b>
 		<font size="3">손채준</font><br/>
 		<!--thscowns@gmail.com<br/>-->
-		M.S. 2022<br/>
+		M.S., Aug. 2022<br/>
 	</p>
 	</div>
 </div>
