@@ -175,6 +175,13 @@ nav-menu: true
                 <font size="3">이예진</font><br/>
     </p>
     </div>
+	<div class="4u 12u$(small)">
+        <p>
+		<span class="image left"><img src="assets/people/dongju-jang/dongju-jang.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
+		<b>Dongju Jang</b>
+		<font size="3">장동주</font><br/>
+    </p>
+    </div>
 </div>
 <p/>
 
