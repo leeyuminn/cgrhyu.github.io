@@ -6,7 +6,7 @@ show_tile: false
 ---
 
 [Minsu Kim](../people/minsu-kim.html), [Eunho Jung](../people/eunho-jung.html), [Yoonsang Lee](../people/yoonsang-lee.html)  
-Accepted to ACM Transactions on Graphics (SIGGRAPH 2025)
+ACM Transactions on Graphics (TOG), Volume 44, Issue 4,  Article No.: 130 (SIGGRAPH 2025)
 
 ![teaser](../assets/publications/2025-physicsfc/teaser-physicsfc.jpg)  
 *With PhysicsFC, users can control a character in a physics-simulated environment, where both the character and the ball are simulated, to perform various football skills–such as moving, trapping, dribbling, and kicking–and seamlessly transition between them.*
@@ -15,8 +15,7 @@ Accepted to ACM Transactions on Graphics (SIGGRAPH 2025)
 We propose PhysicsFC, a method for controlling physically simulated football player characters to perform a variety of football skills--such as dribbling, trapping, moving, and kicking--based on user input, while seamlessly transitioning between these skills. Our skill-specific policies, which generate latent variables for each football skill, are trained using an existing physics-based motion embedding model that serves as a foundation for reproducing football motions. Key features include a tailored reward design for the Dribble policy, a two-phase reward structure combined with projectile dynamics-based initialization for the Trap policy, and a Data-Embedded Goal-Conditioned Latent Guidance (DEGCL) method for the Move policy. Using the trained skill policies, the proposed football player finite state machine (PhysicsFC FSM) allows users to interactively control the character. To ensure smooth and agile transitions between skill policies, as defined in the FSM, we introduce the Skill Transition-Based Initialization (STI), which is applied during the training of each skill policy. We develop several interactive scenarios to showcase PhysicsFC's effectiveness, including competitive trapping and dribbling, give-and-go plays, and 11v11 football games, where multiple PhysicsFC agents produce natural and controllable physics-based football player behaviors. Quantitative evaluations further validate the performance of individual skill policies and the transitions between them, using the presented metrics and experimental designs. 
 
 ## Paper
-Publisher: Coming soon\
-<!--Publisher link: [ArXiv](https://arxiv.org/abs/2403.15902)\-->
+Publisher: [page](https://dl.acm.org/doi/10.1145/3731425), [paper](https://dl.acm.org/doi/pdf/10.1145/3731425)\
 arXiv: [page](https://arxiv.org/abs/2504.21216), [paper](https://arxiv.org/pdf/2504.21216)
 
 ## Video 
