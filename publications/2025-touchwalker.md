@@ -6,7 +6,7 @@ show_tile: false
 ---
 
 [Geuntae Park](../people/geuntae-park.html), [Jiwon Yi](../people/jiwon-yi.html), [Taehyun Rhee](https://findanexpert.unimelb.edu.au/profile/1084098-taehyun-rhee), [Kwanguk Kim](http://hcilab.dothome.co.kr/professor/166), [Yoonsang Lee](../people/yoonsang-lee.html)  
-To appear in 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
+To appear in 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2025)
 
 ![teaser](../assets/publications/2025-touchwalker/teaser-touchwalker.png)  
 *TouchWalker enables real-time control of full-body avatar locomotion using finger walking on a touchscreen. Users specify foot contacts within a touch region overlaid on the screen (bottom), and the system generates responsive full-body locomotion (top).*

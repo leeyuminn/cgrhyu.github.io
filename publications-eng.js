@@ -1,10 +1,28 @@
 var publications_eng = [
 	{
+		'title': 'FreeMusco: Motion-Free Learning of Latent Control for Musculoskeletal Characters',
+		'authors': 'Minkwan Kim, Yoonsang Lee',
+		'conference_journal': 'SIGGRAPH Asia',
+		'year': 2025,
+		'conference_journal_full': 'Conditionally accepted to SIGGRAPH Asia 2025',
+		'representative_img': 'assets/publications/2025-freemusco/thumb-freemusco.jpg',
+		'type': 'paper',
+	},
+	{
+		'title': 'B2F: End-to-End Body-to-Face Motion Generation with Style Reference',
+		'authors': 'Bokyung Jang, Eunho Jung, Yoonsang Lee',
+		'conference_journal': 'PG',
+		'year': 2025,
+		'conference_journal_full': 'Conditionally accepted to Pacific Graphics 2025',
+		'representative_img': 'assets/publications/2025-b2f/thumb-b2f.png',
+		'type': 'paper',
+	},
+	{
 		'title': 'TouchWalker: Real-Time Avatar Locomotion from Touchscreen Finger Walking',
 		'authors': 'Geuntae Park, Jiwon Yi, Taehyun Rhee, Kwanguk Kim, Yoonsang Lee',
 		'conference_journal': 'ISMAR',
 		'year': 2025,
-		'conference_journal_full': 'To appear in 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)',
+		'conference_journal_full': 'To appear in 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2025)',
 		'representative_img': 'assets/publications/2025-touchwalker/thumb-touchwalker.png',
 		'video_iframe': '<iframe width="640" height="360" src="https://www.youtube.com/embed/RO8SRQUstoI" title="TouchWalker: Real-Time Avatar Locomotion from Touchscreen Finger Walking" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
 		'project_page': 'publications/2025-touchwalker.html',
@@ -33,7 +51,7 @@ var publications_eng = [
 		'representative_img': 'assets/publications/2024-matching-drl/thumb-matching-drl.png',
 		'video_iframe': '<iframe width="1169" height="658" src="https://www.youtube.com/embed/kR47MrPhJGk" title="Utilizing Motion Matching with Deep Reinforcement Learning for Target Location Tasks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
 		'project_page': 'publications/2024-matching-drl.html',
-		'type': 'paper',
+		'type': 'short_paper',
         'additional': '<a href="https://diglib.eg.org/handle/10.2312/egs20241020" rel="noopener noreferrer" target="_blank">[publisher]</a> <a href="https://arxiv.org/abs/2403.15902" rel="noopener noreferrer" target="_blank">[arXiv]</a> <a href="https://youtu.be/kR47MrPhJGk" rel="noopener noreferrer" target="_blank">[video]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2024-matching-drl/Eurographics-PP-short1002.pdf" rel="noopener noreferrer" target="_blank">[slides-pdf]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2024-matching-drl/Eurographics-PP-short1002.pptx" rel="noopener noreferrer" target="_blank">[slides-pptx]</a>',
 	},
 	{
