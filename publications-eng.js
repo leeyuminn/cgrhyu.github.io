@@ -15,7 +15,10 @@ var publications_eng = [
 		'year': 2025,
 		'conference_journal_full': 'Conditionally accepted to Pacific Graphics 2025',
 		'representative_img': 'assets/publications/2025-b2f/thumb-b2f.png',
+		'video_iframe': '<iframe width="682" height="384" src="https://www.youtube.com/embed/NoPo_jsLy5A" title="B2F: End-to-End Body-to-Face Motion Generation with Style Reference" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+		'project_page': 'publications/2025-b2f.html',
 		'type': 'paper',
+        'additional': '[publisher] [arXiv] <a href="https://youtu.be/NoPo_jsLy5A" rel="noopener noreferrer" target="_blank">[video]</a> [slides-pdf] [slides-pptx]',
 	},
 	{
 		'title': 'TouchWalker: Real-Time Avatar Locomotion from Touchscreen Finger Walking',
