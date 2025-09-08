@@ -6,7 +6,7 @@ show_tile: false
 ---
 
 [Minsu Kim](../people/minsu-kim.html), [Eunho Jung](../people/eunho-jung.html), [Yoonsang Lee](../people/yoonsang-lee.html)  
-ACM Transactions on Graphics (TOG), Volume 44, Issue 4,  Article No.: 130 (SIGGRAPH 2025)
+ACM Transactions on Graphics (TOG), Volume 44, Issue 4,  Article No.: 130, July 2025 (Presented at SIGGRAPH 2025)
 
 ![teaser](../assets/publications/2025-physicsfc/teaser-physicsfc.jpg)  
 *With PhysicsFC, users can control a character in a physics-simulated environment, where both the character and the ball are simulated, to perform various football skills–such as moving, trapping, dribbling, and kicking–and seamlessly transition between them.*
@@ -25,7 +25,8 @@ arXiv: [page](https://arxiv.org/abs/2504.21216), [paper](https://arxiv.org/pdf/2
 
 <br/>
 
-<!--
-## Slides
-Eurographics 2024 presentation slides: [pdf](https://gitcgr.hanyang.ac.kr/publications/2024-matching-drl/Eurographics-PP-short1002.pdf) (1.5MB), [pptx](https://gitcgr.hanyang.ac.kr/publications/2024-matching-drl/Eurographics-PP-short1002.pptx) (289.5MB)
--->
+
+## Presentation & Poster
+SIGGRAPH 2025 Technical Papers Presentation Slides: [pdf](https://gitcgr.hanyang.ac.kr/publications/2025-physicsfc/physicsfc-siggraph-presentation.pdf) (3.5MB), [pptx](https://gitcgr.hanyang.ac.kr/publications/2025-physicsfc/physicsfc-siggraph-presentation.pptx) (369.7MB)  
+SIGGRAPH 2025 Emerging Technologies & Interactive Discussion Poster: [pdf](https://gitcgr.hanyang.ac.kr/publications/2025-physicsfc/physicsfc-etech-intdis-poster.pdf) (523KB)
+
