@@ -148,6 +148,15 @@ var publications_kor = [
         'additional': '<a href="https://gitcgr.hanyang.ac.kr/publications/domestic/2021-kcgs-2d-traj.pdf" rel="noopener noreferrer" target="_blank">[article]</a>',
         'type': 'extended_abstract',
     },
+	{
+		'title': 'Learning Time-series Interaction Data by Association',
+		'representative_img': 'assets/publications/domestic/2021-ICEIC-learning-tsid.png',
+		'year': 2021,
+		'authors': 'GeunTae Park, Yoonsang Lee',
+		'conference_journal_full': '2021 International Conference on Electronics, Information, and Communication (ICEIC), February 2021',
+		'additional': '<a href="https://gitcgr.hanyang.ac.kr/publications/domestic/2021-iceic-learning-tsid.pdf" rel="noopener noreferrer" target="_blank">[article]</a>',
+		'type': 'extended_abstract',
+	},
     {
         'title':'심층 강화 학습을 이용한 Luxo 캐릭터의 제어',
         'representative_img':'assets/publications/domestic/2020-journalkcgs-luxo.png',

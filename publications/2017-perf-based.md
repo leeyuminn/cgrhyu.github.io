@@ -6,7 +6,7 @@ show_tile: false
 ---
 
 [Yoonsang Lee](../people/yoonsang-lee.html), [Taesoo Kwon](http://calab.hanyang.ac.kr/cgi-bin/home.cgi?node=Taesoo)  
-Eurographics 2017 
+Computer Graphics Forum, Volume 36, Issue 2, 387-395, May 2017 (Presented at Eurographics 2017)
 
 ![teaser](../assets/publications/2017-perf-based/perf-biped-teaser.png)  
 *A user controls a physically simulated character by moving his or her body parts. Top: The input depth data of user poses. Bottom: The simulated character imitating the user’s actions.*

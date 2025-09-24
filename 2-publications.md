@@ -3,6 +3,7 @@ layout: landing
 title: Publications & Presentations
 image: assets/home/publications.jpg
 nav-menu: true
+banner_style: style2
 ---
 
 <section id="one">

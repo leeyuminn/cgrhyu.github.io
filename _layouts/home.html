@@ -12,21 +12,281 @@
 
     {% include header.html %}
 
-    <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Look Inside</a></li>
-                </ul>
-			<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@cgrlab" class="button next scrolly">Youtube Channel</a>
-            </div>
-        </div>
-    </section>
+
+	<!-- Banner -->
+	<section id="banner" class="major home">
+
+		<video id="bgv0" class="bgv" autoplay muted playsinline preload="auto"
+			   style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:1;background:#000;"></video>
+		<video id="bgv1" class="bgv" autoplay muted playsinline preload="auto"
+			   style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;background:#000;"></video>
+
+
+		<!--<div class="inner">-->
+			<!--<header class="major">-->
+				<!--<h1>{{ page.landing-title }}</h1>-->
+			<!--</header>-->
+			<!--<div class="content">-->
+				<!--<p style="text-transform: uppercase;">{{ site.description }}</p>-->
+				<!--<ul class="actions">-->
+					<!--<li><a href="#one" class="button next scrolly">Look Inside</a></li>-->
+				<!--</ul>-->
+			<!--<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@cgrlab" class="button next scrolly">Youtube Channel</a>-->
+			<!--</div>-->
+		<!--</div>-->
+
+		<div class="inner">
+			<div class="hero-card">
+				<header class="major">
+					<h1>{{ page.landing-title }}</h1>
+				</header>
+
+				<p class="hero-sub">{{ page.description }}</p>
+
+				<div class="hero-actions">
+					<a href="#one" class="button next scrolly">Look Inside</a>
+					<a target="_blank" rel="noopener noreferrer"
+									   href="https://www.youtube.com/@cgrlab"
+									   class="button next scrolly">Youtube Channel</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="video-pager" class="video-pager" aria-label="Video selector"></div>
+
+	</section>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var playlist = {{ page.video_playlist | jsonify }};
+  if (!Array.isArray(playlist) || playlist.length === 0) return;
+
+  var v0 = document.getElementById('bgv0');
+  var v1 = document.getElementById('bgv1');
+  if (!v0 || !v1) return;
+
+  var vids    = [v0, v1];
+  var active  = 0;          // 현재 보이는 video index (0/1)
+  var index   = 0;          // playlist 내 현재 클립 인덱스
+  var fadeMs  = 600;
+  var swapping = false;
+
+  // --- pager 요소 참조 ---
+  var pager  = document.getElementById('video-pager');
+
+  // -------------------------
+  // 공통 유틸
+  // -------------------------
+  function setSrc(el, src) {
+    el.src = src;
+    el.loop = false;
+    el.muted = true;
+    el.playsInline = true;
+    el.preload = 'auto';
+    el.load();
+  }
+
+  function whenReady(video, cb) {
+    var called = false;
+    function once(){ if (called) return; called = true; cleanup(); cb(); }
+    function cleanup(){
+      video.removeEventListener('loadeddata', once);
+      video.removeEventListener('canplay', once);
+    }
+    if (video.readyState >= 2) return once();
+    video.addEventListener('loadeddata', once, { once:true });
+    video.addEventListener('canplay',     once, { once:true });
+    setTimeout(once, 1000);
+  }
+
+  function nextIdx(i){ return (i + 1) % playlist.length; }
+
+  // -------------------------
+  // Pager(동그라미)
+  // -------------------------
+  function buildPager(){
+    if (!pager) return;
+    pager.innerHTML = '';
+    playlist.forEach(function(_, i){
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'dot' + (i===index ? ' active' : '');
+      b.setAttribute('aria-label', 'Show video ' + (i+1));
+      b.addEventListener('click', function(){ goto(i); });
+      pager.appendChild(b);
+    });
+  }
+  function updatePager(){
+    if (!pager) return;
+    var dots = pager.querySelectorAll('.dot');
+    dots.forEach(function(d, i){
+      if (i === index) d.classList.add('active');
+      else d.classList.remove('active');
+    });
+  }
+
+  // -------------------------
+  // 자동 전환 예약
+  // -------------------------
+  function scheduleSwap(cur) {
+    function onTime() {
+      if (!isFinite(cur.duration)) return;
+      if (cur.duration - cur.currentTime <= 0.6) {
+        removeAll(); swap();         // 다음 클립으로
+      }
+    }
+    function onEnded(){ removeAll(); swap(); }
+    function onError(){ removeAll(); swap(); }
+    function removeAll(){
+      cur.removeEventListener('timeupdate', onTime);
+      cur.removeEventListener('ended',      onEnded);
+      cur.removeEventListener('error',      onError);
+    }
+    cur.addEventListener('timeupdate', onTime);
+    cur.addEventListener('ended',      onEnded);
+    cur.addEventListener('error',      onError);
+  }
+
+  // -------------------------
+  // 교차 페이드 (특정 인덱스로도 이동 지원)
+  // -------------------------
+  function swap(nextIndex){
+    if (swapping) return;
+    swapping = true;
+
+    var nextVideoIndex = 1 - active;
+    var nextEl = vids[nextVideoIndex];
+
+    if (typeof nextIndex === 'number') index = ((nextIndex % playlist.length) + playlist.length) % playlist.length;
+    else index = nextIdx(index);
+
+    setSrc(nextEl, playlist[index]);
+    whenReady(nextEl, function(){
+      nextEl.currentTime = 0;
+      nextEl.play().catch(()=>{});
+
+      nextEl.style.transition        = 'opacity ' + fadeMs + 'ms ease';
+      vids[active].style.transition  = 'opacity ' + fadeMs + 'ms ease';
+      nextEl.style.opacity = '1';
+      vids[active].style.opacity = '0';
+
+      setTimeout(function(){
+        vids[active].pause();
+        active = nextVideoIndex;
+        swapping = false;
+        updatePager();              // ★ 현재 점 갱신
+        scheduleSwap(vids[active]); // ★ 다음 자동 전환 예약
+      }, fadeMs + 30);
+    });
+  }
+
+  // 외부 호출: 특정 번호로 점프
+  function goto(i){
+    if (i === index || swapping) return;
+    swap(i);
+  }
+
+  // -------------------------
+  // 초기 세팅
+  // -------------------------
+  if (playlist.length === 1) {
+    v0.src = playlist[0];
+    v0.loop = true;
+    v0.muted = true; v0.playsInline = true; v0.preload = 'auto';
+    v0.style.opacity = '1';
+    whenReady(v0, function(){ v0.play().catch(()=>{}); });
+    buildPager(); updatePager();     // 단일이어도 점 하나 표시
+    if (v1) v1.remove();
+    return;
+  }
+
+  setSrc(vids[active], playlist[index]);
+  whenReady(vids[active], function(){
+    vids[active].style.opacity = '1';
+    vids[active].play().catch(()=>{});
+    buildPager(); updatePager();     // ★ 시작 시 점 생성
+    scheduleSwap(vids[active]);
+  });
+
+  // -------------------------
+  // 스와이프/드래그 & 키보드
+  // -------------------------
+  var banner = document.getElementById('banner');
+  var drag = { active:false, x0:0 };
+  var THRESHOLD = 40; // px
+
+  function isInteractive(el){
+    return el.closest('a, button, input, select, textarea, .hero-card');
+  }
+  function onStart(e){
+    if (!banner) return;
+    var t = e.target;
+    if (isInteractive(t)) return;
+    drag.active = true;
+    drag.x0 = (e.touches ? e.touches[0].clientX : e.clientX);
+  }
+  function onEnd(e){
+    if (!drag.active) return;
+    var x1 = (e.changedTouches ? e.changedTouches[0].clientX : e.clientX);
+    var dx = x1 - drag.x0;
+    drag.active = false;
+    if (Math.abs(dx) < THRESHOLD) return;
+    if (dx < 0) goto((index + 1) % playlist.length);
+    else        goto((index - 1 + playlist.length) % playlist.length);
+  }
+
+  if (banner){
+    // Pointer (데스크탑)
+    banner.addEventListener('pointerdown', onStart);
+    banner.addEventListener('pointerup',   onEnd);
+    banner.addEventListener('pointercancel', function(){ drag.active=false; });
+
+    // Touch (모바일/사파리)
+    banner.addEventListener('touchstart', onStart, {passive:true});
+    banner.addEventListener('touchend',   onEnd,   {passive:true});
+    banner.addEventListener('touchcancel',function(){ drag.active=false; }, {passive:true});
+  }
+
+  // 키보드 화살표
+  window.addEventListener('keydown', function(ev){
+    if (ev.key === 'ArrowRight') goto((index + 1) % playlist.length);
+    if (ev.key === 'ArrowLeft')  goto((index - 1 + playlist.length) % playlist.length);
+  });
+
+  // 탭 전환 안정성
+  document.addEventListener('visibilitychange', function () {
+    var a = vids[active]; if (!a) return;
+    if (document.hidden) a.pause(); else a.play().catch(()=>{});
+  });
+});
+</script>
+
+
+	<!-- News Section -->
+	<section id="news" class="wrapper style2 special">
+		<div class="inner">
+			<header class="major">
+				<h2>Lab News</h2>
+			</header>
+			<ul class="features">
+
+				<li><h3>[2025.08] Paper accepted to SIGGRAPH Asia 2025 (<a href="publications/2025-freemusco.html" rel="noopener noreferrer" target="_blank">FreeMusco</a>)</h3></li>
+				<li><h3>[2025.08] Paper accepted to Pacific Graphics 2025 (<a href="publications/2025-b2f.html" rel="noopener noreferrer" target="_blank">B2F</a>)</h3></li>
+				<li><h3>[2025.08] PhysicsFC was featured in the Emerging Technologies program at SIGGRAPH 2025, where our team presented live demonstrations to conference attendees.</h3></li>
+				<li><h3>[2025.07-08] Minsu Kim received the Honorable Mention for the Master’s Thesis Award and the Excellent Paper Award at the KCGS 2025 Annual Conference, and also received the Outstanding Master’s Thesis Award for Spring 2025 from the Department of Artificial Intelligence, Hanyang University. Congratulations!</h3></li>
+				<li><h3>[2025.07] Paper accepted to ISMAR 2025 (<a href="publications/2025-touchwalker.html" rel="noopener noreferrer" target="_blank">TouchWalker</a>)</h3></li>
+				<li><h3>[2025.04] Paper accepted to SIGGRAPH 2025 (<a href="publications/2025-physicsfc.html" rel="noopener noreferrer" target="_blank">PhysicsFC</a>)</h3></li>
+
+			</ul>
+		</div>
+		<div class="more-news">
+			<a href="0-news.html"><strong>More News →</strong></a>
+		</div>
+	</section>
+
+
+
 
     <!-- Main -->
     <div id="main">

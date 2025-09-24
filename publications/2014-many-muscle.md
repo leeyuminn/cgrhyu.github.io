@@ -6,7 +6,7 @@ show_tile: false
 ---
 
 [Yoonsang Lee](../people/yoonsang-lee.html), [Moon Seok Park](https://www.snubh.org/common/layer/drIntroduce.do?sDpCd=OS&sDpCdDtl=OS&sDrSid=1001025&sDrStfNo=65407&sDpTp=), [Taesoo Kwon](http://calab.hanyang.ac.kr/cgi-bin/home.cgi?node=Taesoo), [Jehee Lee](http://mrl.snu.ac.kr/~jehee/)  
-SIGGRAPH Asia 2014
+ACM Transactions on Graphics, Volume 33, Issue 6, Article No.: 218, November 2014 (Presented at SIGGRAPH Asia 2014)
 
 ![teaser](../assets/publications/2014-many-muscle/many-muscle.png)  
 

@@ -3,6 +3,7 @@ layout: landing
 title: Showcase
 image: assets/home/showcase.jpg
 nav-menu: true
+banner_style: style4
 ---
 
 <section id="one">

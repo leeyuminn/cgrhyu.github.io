@@ -3,6 +3,7 @@ layout: landing
 title: People
 image: assets/home/people.jpg
 nav-menu: true
+banner_style: style1
 ---
 
 <!-- One -->

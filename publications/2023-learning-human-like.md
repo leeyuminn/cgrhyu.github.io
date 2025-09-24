@@ -6,7 +6,7 @@ show_tile: false
 ---
 
 [Minkwan Kim](../people/minkwan-kim.html), [Yoonsang Lee](../people/yoonsang-lee.html)  
-SIGGRAPH 2023 Posters
+SIGGRAPH '23: ACM SIGGRAPH 2023 Posters, Article No.: 5, July 2023
 
 ## Abstract
 We propose a method of learning a policy for human-like locomotion via deep reinforcement learning based on a human anatomical model, muscle actuation, and biologically inspired rewards, without any inherent control rules or reference motions.

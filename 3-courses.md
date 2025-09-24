@@ -3,6 +3,7 @@ layout: landing
 title: Courses
 image: assets/home/courses.webp
 nav-menu: true
+banner_style: style3
 ---
 
 <section id="one">
