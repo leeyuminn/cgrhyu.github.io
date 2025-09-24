@@ -80,3 +80,282 @@
 	@import 'layout/footer';
 	@import 'layout/wrapper';
 	@import 'layout/menu';
+
+
+//////////////////////////////////////
+// 첫 화면 배경 비디오를 위한 추가
+
+/* 배너 기본 레이아웃/높이 */
+#banner.home {
+  position: relative;
+  overflow: hidden;
+  background: none !important;
+  min-height: 70vh;          /* ★ 높이 확보(이미지 제거로 0이 되는 문제 방지) */
+  display: flex;
+  align-items: center;        /* 텍스트 수직 중앙 정렬(선택) */
+}
+
+/* 비디오 레이어 (맨 아래) */
+#banner.home .video-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+/* 비디오 태그들: 화면 꽉 채우기 */
+#banner.home .video-bg .bgv {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;                /* 기본은 숨김 */
+}
+
+/* 첫 비디오는 보이게 */
+#banner.home .video-bg #bgv0 { opacity: 1; }
+
+/* 어둡게 오버레이(비디오 위, 텍스트 아래) */
+#banner.home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.35);
+  z-index: 1;
+}
+
+/* 텍스트 레이어 (맨 위) */
+#banner.home .inner {
+  position: relative;
+  z-index: 2;
+}
+
+#banner.home .video-bg #bgv0 { opacity: 1 !important; }
+
+#banner.home::after {
+  opacity: 0 !important;   /* 첫 화면에서는 오버레이 제거 */
+}
+
+
+//////////////////////////////////////
+// 첫 화면 배경 비디오 위 카드보드 텍스트 표시 위해
+
+/* --- Hero overlay 살짝 옅게 --- */
+#banner.home::before {
+  background: rgba(0,0,0, 0.0);  /* 기존 .35 → .20 */
+}
+
+/* --- 텍스트 래퍼를 가운데 배치 --- */
+#banner.home .inner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  min-height: 60vh;  /* 카드가 항상 중앙에 오도록 */
+  bottom: .5rem;  /* 원하는 만큼 위로 띄우기 */
+}
+
+/* --- 반투명 카드 --- */
+.hero-card {
+  display: inline-block;
+  padding: clamp(1rem, 3vw, 2.25rem) clamp(1.25rem, 4vw, 3rem);
+
+  background: rgba(20, 20, 20, 0.5);         // 검정 배경 카드
+  //background: rgba(_palette(bg), 0.5);			// 초록 배경 카드
+
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+  backdrop-filter: saturate(120%) blur(2px);   /* 살짝 글래스 효과(지원 브라우저에서만) */
+  -webkit-backdrop-filter: saturate(120%) blur(2px);
+}
+
+/* 제목/부제 가독성 */
+.hero-card .major h1 {
+  //color: #fff;
+  //color: #000;
+  color: _palette(bg);
+
+  margin: 0 0 0.35em 0;
+  line-height: 1.1;
+}
+
+.hero-sub {
+  color: rgba(255,255,255,.9);
+  //color: rgba(0,0,0,.9);
+
+  margin: 0 0 1.1em 0;
+  text-transform: none;       /* 대문자 해제: 읽기 쉬움 */
+  letter-spacing: .2px;
+  font-weight: 300;
+}
+
+/* 버튼 묶음 */
+.hero-actions {
+  display: inline-flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 버튼 대비 강화 (배경 위에서도 선명하게) */
+#banner.home .hero-actions .button {
+  background: rgba(255,255,255,.08);
+  //background: rgba(0,0,0,.08);
+
+  //border: 1px solid rgba(255,255,255,.7);
+  //border: 1px solid rgba(0,0,0,.7);
+  border: 1px solid rgba(_palette(bg),.7);
+
+  //color: #fff !important;
+  //color: #000 !important;
+  color: _palette(bg) !important;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+#banner.home .hero-actions .button:hover {
+  //background: rgba(255,255,255,.18);
+  //background: rgba(0,0,0,.18);
+  background: rgba(_palette(bg),.18);
+
+  //border-color: #fff;
+  //border-color: #000;
+  border-color: _palette(bg);
+}
+
+/* 모바일에서 카드 여백/폰트 자동 축소 */
+@include breakpoint(small) {
+  .hero-card { padding: 1rem 1.25rem; border-radius: 10px; }
+  .hero-card .major h1 { font-size: 1.75rem; }
+  .hero-sub { font-size: .95rem; }
+}
+
+/* 홈 배너: 제목-설명 간격 타이트하게 */
+#banner.home header.major h1::after { display: none !important; }  /* 선 제거 */
+#banner.home header.major { margin: 0 !important; }                /* header 기본 여백 제거 */
+#banner.home header.major h1 { margin: 0 !important; line-height: 1.05; } /* h1 여백 제거 */
+
+#banner.home .hero-sub { margin: .35em 0 0 !important; }           /* 설명의 위쪽 간격만 지정 */
+
+/* (선택) 카드 내부 요소 간 통일 간격 규칙 */
+#banner.home .hero-card > * + * { margin-top: .6em; }               /* 제목 다음부터만 간격 */
+
+
+//////////////////////////////////////
+// 첫 화면 배경 비디오 위 상단 헤더 표시 위해
+
+
+//헤더 배경 반투명 처리
+#header {
+  background-color: rgba(_palette(bg), 0.85) !important;
+  backdrop-filter: saturate(120%) blur(2px);   /* 살짝 글래스 효과(지원 브라우저에서만) */
+  -webkit-backdrop-filter: saturate(120%) blur(2px);
+}
+
+
+//////////////////////////////////////
+// video pager (영상 하단 동그라미)
+
+
+/* --- 비디오 인디케이터: 동그라미를 진짜 원으로 --- */
+.video-pager{
+  position:absolute; left:50%; transform:translateX(-50%);
+  bottom: 1.2rem; z-index: 3; display:flex; gap:.55rem;
+  padding:.25rem .6rem; border-radius: 999px;
+  background: rgba(0,0,0,.15); backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+/* 버튼 기본 스타일 리셋 + 정사각 강제 */
+.video-pager .dot{
+  all: unset;                      /* UA 기본 제거 (가장 확실) */
+  display: inline-block;
+  box-sizing: border-box;
+  inline-size: 12px;               /* 가로 */
+  block-size: 12px;                /* 세로 */
+  aspect-ratio: 1 / 1;             /* 혹시 모를 비율 깨짐 방지 */
+  border-radius: 50%;
+  padding: 0;
+  //border: 1.5px solid rgba(0,0,0,.7);
+  background: rgba(255,255,255,.75);
+  cursor: pointer;
+  transition: transform .12s ease, background .12s ease, border-color .12s ease;
+  vertical-align: middle;
+}
+
+/* 포커스/호버/활성 */
+.video-pager .dot:hover{ transform: scale(1.15); }
+.video-pager .dot:focus-visible{ outline: 2px solid #fff; outline-offset: 2px; }
+.video-pager .dot.active{
+  background: rgba(_palette(bg), 0.85); border-color: #000; transform: scale(1.25);
+}
+
+/* 모바일 살짝 키우기 */
+@include breakpoint(small){
+  .video-pager{ bottom: .75rem; gap:.6rem; }
+  .video-pager .dot{ inline-size: 14px; block-size: 14px; }
+}
+
+
+//////////////////////////////////////
+// home news 스타일
+
+/* ---- Lab News (home) ---- */
+#news {
+  background-color: _palette(accent0);
+  padding: 3rem 0;
+}
+
+#news header.major h2 { margin-bottom: .75rem !important; }
+
+/* 기본 features 그리드/아이콘 제거하고, 수직 리스트로 */
+#news ul.features{
+  display: flex !important;
+  flex-direction: column !important;
+  gap: .65rem !important;
+  padding: 0 !important;
+  margin: 1rem 0 0 !important;
+}
+
+#news ul.features li{
+  list-style: none !important;
+  margin: 0 !important;
+  padding: .9rem 1.1rem !important;
+  background: rgba(255,255,255,.92) !important;           /* 카드 바탕 */
+  border: 1px solid rgba(0,0,0,.06) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06) !important;
+  position: relative;
+  text-align: left !important;
+  background: #f9fdfd !important;   /* 흰색에 살짝 민트 */
+}
+
+/* Forty 테마의 점/아이콘 제거 */
+#news ul.features li:before,
+#news ul.features li:after{ display:none !important; }
+
+/* 텍스트 정리 */
+#news ul.features h3{
+  margin: 0 !important;
+  font-size: 1.0rem !important;
+  line-height: 1.5 !important;
+  font-weight: 600 !important;
+  color: #111 !important;
+}
+
+/* 링크는 가볍게 강조 */
+#news ul.features a{
+  text-decoration: underline;
+}
+
+/* 호버 시 살짝 떠보이게 */
+#news ul.features li:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(0,0,0,.10) !important;
+  transition: box-shadow .18s ease, transform .18s ease;
+}
+
+/* 모바일 약간 압축 */
+@media (max-width: 736px){
+  #news ul.features li{ padding: .8rem .95rem !important; }
+  #news ul.features h3{ font-size: 1rem !important; }
+}

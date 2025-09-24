@@ -6,7 +6,7 @@ show_tile: false
 ---
 
 [Jeongmin Lee](../people/jeongmin-lee.html), [Taesoo Kwon](http://calab.hanyang.ac.kr/cgi-bin/home.cgi?node=Taesoo), Hyunju Shin, [Yoonsang Lee](../people/yoonsang-lee.html)  
-Eurographics 2024 Short Papers
+Eurographics 2024 Short Papers, April 2024
 
 ## Abstract
 We present an approach using deep reinforcement learning (DRL) to directly generate motion matching queries for long-term tasks, particularly targeting the reaching of specific locations. By integrating motion matching and DRL, our method demonstrates the rapid learning of policies for target location tasks within minutes on a standard desktop, employing a simple reward design. Additionally, we propose a unique hit reward and obstacle curriculum scheme to enhance policy learning in environments with moving obstacles.

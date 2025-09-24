@@ -6,7 +6,7 @@ show_tile: false
 ---
 
 [Yoonsang Lee](../people/yoonsang-lee.html), [Sungeun Kim](http://mrl.snu.ac.kr/~sungeun), [Jehee Lee](http://mrl.snu.ac.kr/~jehee/)  
-SIGGRAPH 2010
+ACM Transactions on Graphics, Volume 29, Issue 4, Article No.: 129, July 2010 (Presented at SIGGRAPH 2010)
 
 ![teaser](../assets/publications/2010-data-driven/teaser_web.png)  
 *Our data-driven controller allows the physically-simulated biped character to reproduce challenging motor skills captured in motion data.*

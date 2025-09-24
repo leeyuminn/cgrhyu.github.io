@@ -40,6 +40,15 @@
 			z-index: 1;
 		}
 
+	  // ★ 색상은 기존 style1~style6 그대로 사용 (타일 팔레트와 동일)
+	  &.style0 { &:after { background-color: _palette(accent0); } }
+	  &.style1 { &:after { background-color: _palette(accent1); } }
+	  &.style2 { &:after { background-color: _palette(accent2); } }
+	  &.style3 { &:after { background-color: _palette(accent3); } }
+	  &.style4 { &:after { background-color: _palette(accent4); } }
+	  &.style5 { &:after { background-color: _palette(accent5); } }
+	  &.style6 { &:after { background-color: _palette(accent6); } }
+
 		h1 {
 			font-size: 3.25em;
 		}

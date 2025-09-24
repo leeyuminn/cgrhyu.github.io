@@ -6,7 +6,7 @@ show_tile: false
 ---
 
 [Yoonsang Lee](../people/yoonsang-lee.html), [Kyungho Lee](http://mrl.snu.ac.kr/~whcjs13/), Soon-Sun Kwon, Jiwon Jeong, [Carol O'Sullivan](http://isg.cs.tcd.ie/cosulliv/), [Moon Seok Park](https://www.snubh.org/common/layer/drIntroduce.do?sDpCd=OS&sDpCdDtl=OS&sDrSid=1001025&sDrStfNo=65407&sDpTp=), [Jehee Lee](http://mrl.snu.ac.kr/~jehee/)  
-SIGGRAPH Asia 2015 
+ACM Transactions on Graphics, Volume 34, Issue 6, Article No.: 180, November 2015 (Presented at SIGGRAPH Asia 2015)
 
 ![teaser](../assets/publications/2015-push-recovery/teaser.png)  
 *Motion capture of our push-recovery experiment. The experimenter pushed the participant while walking and measured lateral detour from the straight line.*
