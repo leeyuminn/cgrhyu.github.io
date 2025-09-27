@@ -4,6 +4,7 @@ title: Showcase - PBL Projects
 image: assets/home/showcase.jpg
 nav-menu: false
 show_tile: false
+banner_style: style4
 ---
 
 <section id="one">

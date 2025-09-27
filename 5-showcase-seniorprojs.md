@@ -4,6 +4,7 @@ title: Showcase - Senior Projects
 image: assets/home/showcase.jpg
 nav-menu: true
 show_tile: false
+banner_style: style4
 ---
 
 <section id="one">
