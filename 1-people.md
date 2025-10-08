@@ -141,13 +141,13 @@ banner_style: style1
 		<font size="3">이창호</font><br/>
     </p>
     </div>
-    <div class="4u 12u$(small)">
+    <!--div class="4u 12u$(small)">
         <p>
                 <span class="image left"><img src="assets/people/yejin-lee/yejin-lee.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
                 <b>Yejin Lee</b>
                 <font size="3">이예진</font><br/>
     </p>
-    </div>
+    </div-->
 	<div class="4u 12u$(small)">
         <p>
                 <span class="image left"><img src="assets/people/dongju-jang/dongju-jang.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
