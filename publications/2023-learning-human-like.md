@@ -1,23 +1,54 @@
 ---
-layout: post
+layout: publication_post
 title: Learning Human-like Locomotion Based on Biological Actuation and Rewards
 nav-menu: false
 show_tile: false
 ---
 
-[Minkwan Kim](../people/minkwan-kim.html), [Yoonsang Lee](../people/yoonsang-lee.html)  
-SIGGRAPH '23: ACM SIGGRAPH 2023 Posters, Article No.: 5, July 2023
+<div class="venue">
+	SIGGRAPH 2023 Posters
+</div>
+
+<div class="authors">
+  <a href="../people/minkwan-kim.html">Minkwan Kim</a>
+  <a href="../people/yoonsang-lee.html">Yoonsang Lee</a>
+</div>
+
+<div class="affiliations"> 
+    Hanyang University
+</div>
+
+<div class="link-buttons">
+  <a href="https://dl.acm.org/doi/abs/10.1145/3588028.3603646" rel="noopener noreferrer" target="_blank" class="button icon">
+    <span class="ai ai-doi"></span>
+    <span>Publisher</span>
+  </a>
+
+  <a href="http://arxiv.org/abs/2401.15664" rel="noopener noreferrer" target="_blank" class="button icon">
+    <span class="ai ai-arxiv"></span>
+    <span>arXiv</span>
+  </a>
+
+  <a href="https://gitcgr.hanyang.ac.kr/publications/2023-learning-human-like/learning-human-like-poster.pdf" rel="noopener noreferrer" target="_blank" class="button icon">
+    <span class="fa fa-image"></span>
+    <span>Poster</span>
+  </a>
+</div>
+
+<!--[Minkwan Kim](../people/minkwan-kim.html), [Yoonsang Lee](../people/yoonsang-lee.html)  -->
+<!--SIGGRAPH '23: ACM SIGGRAPH 2023 Posters, Article No.: 5, July 2023-->
+
+## Video 
+<div id="iframe_container"> <div id="iframe">
+<iframe width="1536" height="864" src="https://www.youtube.com/embed/QPGUvpJm_Hk" title="Learning Human-like Locomotion Based on Biological Actuation and Rewards" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></div>  
+<br/>
 
 ## Abstract
 We propose a method of learning a policy for human-like locomotion via deep reinforcement learning based on a human anatomical model, muscle actuation, and biologically inspired rewards, without any inherent control rules or reference motions.
 Our main ideas involve providing a dense reward using metabolic energy consumption at every step during the initial stages of learning and then transitioning to a sparse reward as learning progresses,
 and adjusting the initial posture of the human model to facilitate the exploration of locomotion.
 Additionally, we compared and analyzed differences in learning outcomes across various settings other than the proposed method.
-
-## Video 
-<div id="iframe_container"> <div id="iframe">
-<iframe width="1536" height="864" src="https://www.youtube.com/embed/QPGUvpJm_Hk" title="Learning Human-like Locomotion Based on Biological Actuation and Rewards" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div></div>  
 
 ## System Overview
 ![](../assets/publications/2023-learning-human-like/overview-human-like.png)
@@ -44,5 +75,4 @@ We use hill-type muscle actuated model(left of the figure) which is composed of 
 Publisher: [page](https://dl.acm.org/doi/abs/10.1145/3588028.3603646), [paper](https://dl.acm.org/doi/pdf/10.1145/3588028.3603646), [supp doc](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3588028.3603646&file=supp.pdf)\
 arXiv: [page](http://arxiv.org/abs/2401.15664), [paper](http://arxiv.org/pdf/2401.15664)\
 Preprint: [paper](https://gitcgr.hanyang.ac.kr/publications/2023-learning-human-like/learning-human-like-preprint.pdf), [supp doc](https://gitcgr.hanyang.ac.kr/publications/2023-learning-human-like/learning-human-like-supp.pdf)\
-<!--Supplementary document: [pdf](https://gitcgr.hanyang.ac.kr/publications/2023-learning-human-like/learning-human-like-supp.pdf) (1.3MB)\-->
 [Poster](https://gitcgr.hanyang.ac.kr/publications/2023-learning-human-like/learning-human-like-poster.pdf)

@@ -9,31 +9,46 @@ var publications_eng = [
 		'video_iframe': '<iframe width="1198" height="674" src="https://www.youtube.com/embed/YFNKLzUQ0zk" title="FreeMusco: Motion-Free Learning of Latent Control for Morphology-Adaptive Locomotion in Musculoske.." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
 		'project_page': 'publications/2025-freemusco.html',
 		'type': 'paper',
-        'additional': '[publisher] [arXiv] <a href="https://youtu.be/YFNKLzUQ0zk" rel="noopener noreferrer" target="_blank">[video]</a> [slides-pdf] [slides-pptx]',
+		'links':
+			[
+				{'Publisher': ''},
+				{'arXiv': ''},
+				{'Video': 'https://youtu.be/YFNKLzUQ0zk'},
+			],
 	},
 	{
 		'title': 'B2F: End-to-End Body-to-Face Motion Generation with Style Reference',
 		'authors': 'Bokyung Jang, Eunho Jung, Yoonsang Lee',
 		'conference_journal': 'PG',
 		'year': 2025,
-		'conference_journal_full': 'To appear in Pacific Graphics 2025',
+		'conference_journal_full': 'Pacific Graphics 2025, October 2025',
 		'representative_img': 'assets/publications/2025-b2f/thumb-b2f.png',
 		'video_iframe': '<iframe width="682" height="384" src="https://www.youtube.com/embed/NoPo_jsLy5A" title="B2F: End-to-End Body-to-Face Motion Generation with Style Reference" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
 		'project_page': 'publications/2025-b2f.html',
 		'type': 'paper',
-        'additional': '[publisher] [arXiv] <a href="https://youtu.be/NoPo_jsLy5A" rel="noopener noreferrer" target="_blank">[video]</a> [slides-pdf] [slides-pptx]',
+		'links':
+			[
+				{'Publisher': 'https://diglib.eg.org/items/93f81df9-1fa7-4ce4-b1f9-916c145d81e6'},
+				{'arXiv': ''},
+				{'Video': 'https://youtu.be/NoPo_jsLy5A'},
+			],
 	},
 	{
 		'title': 'TouchWalker: Real-Time Avatar Locomotion from Touchscreen Finger Walking',
 		'authors': 'Geuntae Park, Jiwon Yi, Taehyun Rhee, Kwanguk Kim, Yoonsang Lee',
 		'conference_journal': 'ISMAR',
 		'year': 2025,
-		'conference_journal_full': 'To appear in 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2025)',
+		'conference_journal_full': '2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2025), October 2025',
 		'representative_img': 'assets/publications/2025-touchwalker/thumb-touchwalker.png',
 		'video_iframe': '<iframe width="640" height="360" src="https://www.youtube.com/embed/RO8SRQUstoI" title="TouchWalker: Real-Time Avatar Locomotion from Touchscreen Finger Walking" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
 		'project_page': 'publications/2025-touchwalker.html',
 		'type': 'paper',
-        'additional': '[publisher] [arXiv] <a href="https://youtu.be/RO8SRQUstoI" rel="noopener noreferrer" target="_blank">[video]</a> [slides-pdf] [slides-pptx]',
+		'links':
+			[
+				{'Publisher': ''},
+				{'arXiv': ''},
+				{'Video': 'https://youtu.be/RO8SRQUstoI'},
+			],
 	},
 	{
 		'title': 'PhysicsFC: Learning User-Controlled Skills for a Physics-Based Football Player Controller',
@@ -45,7 +60,12 @@ var publications_eng = [
 		'video_iframe': '<iframe width="896" height="504" src="https://www.youtube.com/embed/dSfW8EvV5CA" title="PhysicsFC: Learning User-Controlled Skills for a Physics-Based Football Player Controller" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
 		'project_page': 'publications/2025-physicsfc.html',
 		'type': 'paper',
-        'additional': '<a href="https://dl.acm.org/doi/10.1145/3731425" rel="noopener noreferrer" target="_blank">[publisher]</a> <a href="https://arxiv.org/abs/2504.21216" rel="noopener noreferrer" target="_blank">[arXiv]</a> <a href="https://youtu.be/dSfW8EvV5CA" rel="noopener noreferrer" target="_blank">[video]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2025-physicsfc/physicsfc-siggraph-presentation.pdf" rel="noopener noreferrer" target="_blank">[slides-pdf]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2025-physicsfc/physicsfc-siggraph-presentation.pptx" rel="noopener noreferrer" target="_blank">[slides-pptx]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2025-physicsfc/physicsfc-etech-intdis-poster.pdf" rel="noopener noreferrer" target="_blank">[poster]</a>',
+		'links':
+			[
+				{'Publisher': 'https://dl.acm.org/doi/10.1145/3731425'},
+				{'arXiv': 'https://arxiv.org/abs/2504.21216'},
+				{'Video': 'https://youtu.be/dSfW8EvV5CA'},
+			],
 	},
 	{
 		'title': 'Utilizing Motion Matching with Deep Reinforcement Learning for Target Location Tasks',
@@ -57,7 +77,12 @@ var publications_eng = [
 		'video_iframe': '<iframe width="1169" height="658" src="https://www.youtube.com/embed/kR47MrPhJGk" title="Utilizing Motion Matching with Deep Reinforcement Learning for Target Location Tasks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
 		'project_page': 'publications/2024-matching-drl.html',
 		'type': 'short_paper',
-        'additional': '<a href="https://diglib.eg.org/handle/10.2312/egs20241020" rel="noopener noreferrer" target="_blank">[publisher]</a> <a href="https://arxiv.org/abs/2403.15902" rel="noopener noreferrer" target="_blank">[arXiv]</a> <a href="https://youtu.be/kR47MrPhJGk" rel="noopener noreferrer" target="_blank">[video]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2024-matching-drl/Eurographics-PP-short1002.pdf" rel="noopener noreferrer" target="_blank">[slides-pdf]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2024-matching-drl/Eurographics-PP-short1002.pptx" rel="noopener noreferrer" target="_blank">[slides-pptx]</a>',
+		'links':
+			[
+				{'Publisher': 'https://diglib.eg.org/handle/10.2312/egs20241020'},
+				{'arXiv': 'https://arxiv.org/abs/2403.15902'},
+				{'Video': 'https://youtu.be/kR47MrPhJGk'},
+			],
 	},
 	{
 		'title': 'Adaptive Tracking of a Single-Rigid-Body Character in Various Environments',
@@ -69,7 +94,15 @@ var publications_eng = [
 		'video_iframe': '<iframe width="560" height="315" src="https://www.youtube.com/embed/oY_6dgF9P7k" title="Adaptive Tracking of a Single-Rigid-Body Character in Various Environments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'project_page': 'http://calab.hanyang.ac.kr/papers/adaptiveSRB.html',
 		'type': 'paper',
-        'additional': '<a href="https://dl.acm.org/doi/10.1145/3610548.3618187" rel="noopener noreferrer" target="_blank">[publisher]</a> <a href="https://arxiv.org/abs/2308.07491" rel="noopener noreferrer" target="_blank">[arXiv]</a> <a href="https://youtu.be/oY_6dgF9P7k" rel="noopener noreferrer" target="_blank">[video]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2023-adaptive-tracking/adaptive-v3.pdf" rel="noopener noreferrer" target="_blank">[slides-pdf]</a> <a href="https://gitcgr.hanyang.ac.kr/publications/2023-adaptive-tracking/adaptive-v3.pptx" rel="noopener noreferrer" target="_blank">[slides-pptx]</a> <a href="https://github.com/taesoobear/IPCDNNwalk" rel="noopener noreferrer" target="_blank">[code]</a>',
+		'links':
+			[
+				{'Publisher': 'https://dl.acm.org/doi/10.1145/3610548.3618187'},
+				{'arXiv': 'https://arxiv.org/abs/2308.07491'},
+				{'Video': 'https://youtu.be/oY_6dgF9P7k'},
+				{'Slides (PDF)': 'https://gitcgr.hanyang.ac.kr/publications/2023-adaptive-tracking/adaptive-v3.pdf'},
+				{'Slides (PPTX)': 'https://gitcgr.hanyang.ac.kr/publications/2023-adaptive-tracking/adaptive-v3.pptx'},
+				{'Code': 'https://github.com/taesoobear/IPCDNNwalk'},
+			],
 	},
 	{
 		'title': 'Learning Human-like Locomotion Based on Biological Actuation and Rewards',
@@ -81,7 +114,12 @@ var publications_eng = [
 		'video_iframe': '<iframe width="1536" height="864" src="https://www.youtube.com/embed/QPGUvpJm_Hk" title="Learning Human-like Locomotion Based on Biological Actuation and Rewards" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'project_page': 'publications/2023-learning-human-like.html',
 		'type': 'poster',
-        'additional': '<a href="https://dl.acm.org/doi/abs/10.1145/3588028.3603646" rel="noopener noreferrer" target="_blank">[publisher]</a> <a href="http://arxiv.org/abs/2401.15664" rel="noopener noreferrer" target="_blank">[arXiv]</a> <a href="https://youtu.be/QPGUvpJm_Hk" rel="noopener noreferrer" target="_blank">[video]</a> <a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3588028.3603646&file=poster-v2.pdf" rel="noopener noreferrer" target="_blank">[poster]</a>',
+		'links':
+			[
+				{'Publisher': 'https://dl.acm.org/doi/abs/10.1145/3588028.3603646'},
+				{'arXiv': 'http://arxiv.org/abs/2401.15664'},
+				{'Video': 'https://youtu.be/QPGUvpJm_Hk'},
+			],
 	},
 	{
 		'title': 'Interactive Character Path-Following Using Long-Horizon Motion Matching With Revised Future Queries',
@@ -92,7 +130,12 @@ var publications_eng = [
 		'video_iframe': '<iframe width="1536" height="864" src="https://www.youtube.com/embed/N357UBDALpw" title="Interactive Character Path-Following using Long-Horizon Motion Matching with Revised Future Queries" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'project_page': 'publications/2023-path-following.html',
 		'type': 'paper',
-        'additional': '<a href="https://ieeexplore.ieee.org/document/10029373" rel="noopener noreferrer" target="_blank">[publisher]</a> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10029373" rel="noopener noreferrer" target="_blank">[paper]</a> <a href="https://youtu.be/N357UBDALpw" rel="noopener noreferrer" target="_blank">[video]</a> <a href="https://github.com/jmmhappy/InteractiveCharacterPathFollowing" rel="noopener noreferrer" target="_blank">[code]</a>',
+		'links':
+			[
+				{'Publisher': 'https://ieeexplore.ieee.org/document/10029373'},
+				{'arXiv': ''},
+				{'Video': 'https://youtu.be/N357UBDALpw'},
+			],
 	},
 	{
 		'title': 'Understanding the Stability of Deep Control Policies for Biped Locomotion ',
@@ -102,7 +145,12 @@ var publications_eng = [
 		'conference_journal_full': 'The Visual Computer, Volume 39, 473-487, January 2022',
 		'project_page': 'https://mrl.snu.ac.kr/research/ProjectDeepStability/deepstability.htm',
 		'type': 'paper',
-        'additional': '<a href="https://link.springer.com/article/10.1007/s00371-021-02342-9" rel="noopener noreferrer" target="_blank">[publisher]</a> <a href="https://arxiv.org/abs/2007.15242" rel="noopener noreferrer" target="_blank">[arXiv]</a> <a href="https://github.com/snumrl/DeepPushRecovery" rel="noopener noreferrer" target="_blank">[code]</a>',
+		'links':
+			[
+				{'Publisher': 'https://link.springer.com/article/10.1007/s00371-021-02342-9'},
+				{'arXiv': 'https://arxiv.org/abs/2007.15242'},
+				{'Code': 'https://github.com/snumrl/DeepPushRecovery'},
+			],
 	},
 	{
 		'title': 'Finite State Machine-Based Motion-Free Learning of Biped Walking',
@@ -113,7 +161,12 @@ var publications_eng = [
 		'video_iframe': '<iframe width="1047" height="589" src="https://www.youtube.com/embed/jqgf-sHqCz0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 		'project_page': 'publications/2021-fsm-learning.html',
 		'type': 'paper',
-        'additional': '<a href="https://ieeexplore.ieee.org/document/9337805" rel="noopener noreferrer" target="_blank">[publisher]</a> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9337805" rel="noopener noreferrer" target="_blank">[paper]</a> <a href="https://youtu.be/jqgf-sHqCz0" rel="noopener noreferrer" target="_blank">[video]</a>',
+		'links':
+			[
+				{'Publisher': 'https://ieeexplore.ieee.org/document/9337805'},
+				{'arXiv': ''},
+				{'Video': 'https://youtu.be/jqgf-sHqCz0'},
+			],
 	},
 	{
 		'title': 'Fast and Flexible Multilegged Locomotion Using Learned Centroidal Dynamics',
