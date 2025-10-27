@@ -359,3 +359,261 @@
   #news ul.features li{ padding: .8rem .95rem !important; }
   #news ul.features h3{ font-size: 1rem !important; }
 }
+
+
+//////////////////////////////////////
+// publication post용 스타일
+
+/* 1. 콘텐츠 래퍼 중앙 정렬 및 폭 제한 */
+.publication-page-style .pub-content-wrapper {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: white; 
+}
+
+/* 2. 제목 스타일 */
+.publication-page-style .pub-content-wrapper h1 {
+    text-align: center;
+    font-size: 3.0em; /* 기존 스타일 유지 */
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    /* 줄 간격 조정 */
+    line-height: 1.2;
+}
+
+.publication-page-style #one header.major {
+    /* 다른 마진/패딩은 0으로 유지 */
+    margin-top: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+	margin-bottom:30px !important;
+}
+
+/* 1. 제목 아래 밑줄 제거 (h1::after 타겟) */
+.publication-page-style #one header.major h1:after,
+.publication-page-style #one header.major h1::after {
+    display: none !important;
+    content: none !important; 
+    border: none !important;
+    background: none !important;
+}
+
+/* 3. 저자 및 저널 정보 공통 스타일 */
+.publication-page-style .authors, 
+.publication-page-style .affiliations
+{
+	font-weight: bold; 
+    text-align: center;
+    //margin-bottom: 5px;
+    font-size: 1.3em; /* 기존 스타일 유지 */
+    color: #000; /* 콤마(,)와 Venue 텍스트의 기본색은 짙은 회색으로 설정 */
+}
+
+.publication-page-style .affiliations
+{
+    margin-bottom: 20px;
+}
+
+.publication-page-style .additional
+{
+    text-align: center;
+    font-size: 1.1em; /* 기존 스타일 유지 */
+    margin-bottom: 10px;
+}
+
+.publication-page-style .venue {
+    //font-weight: bold; 
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.0em;
+    color: #000;
+}
+
+/* 4. 저자 이름 링크(a 태그) 전용 스타일 (굵게 & 파란색) */
+.publication-page-style .authors a {
+    /* 선명한 파란색 적용 (#1D79BA는 스크린샷과 유사, #209CEE도 비슷한 밝은 파란색) */
+    color: #1D79BA; 
+    /* 링크 밑줄 제거 */
+    text-decoration: none; 
+    margin-right: 30px; /* 저자 이름 간의 간격 */
+}
+
+/* 4. 저자 이름 링크없는 경우 */
+.publication-page-style .authors span {
+    /* 선명한 파란색 적용 (#1D79BA는 스크린샷과 유사, #209CEE도 비슷한 밝은 파란색) */
+    color: #1D79BA; 
+    /* 링크 밑줄 제거 */
+    text-decoration: none; 
+    margin-right: 30px; /* 저자 이름 간의 간격 */
+}
+
+
+/* ========================================= */
+/* 논문 상세 페이지 최종 캡슐형 버튼 스타일 (가로 정렬 & 명시적 높이 최종 버전) */
+/* ========================================= */
+
+/* 1. 버튼 컨테이너 중앙 정렬 */
+.publication-page-style .link-buttons {
+    display: flex;              /* 줄바꿈 및 간격 제어를 위한 flexbox 사용 */
+    flex-wrap: wrap;            /* 버튼 여러 줄 허용 */
+    justify-content: center;    /* 가운데 정렬 (text-align: center 대신) */
+    gap: 10px 0px;             /* 위아래 10px, 좌우 14px 간격 */
+    margin-top: 0px; 
+    margin-bottom: 80px;        /* 아래 공간 유지 */
+}
+
+/* 2. 개별 버튼 스타일: 높이 강제 및 가로 정렬 */
+.publication-page-style .link-buttons .button {
+    /* 💡 가로 정렬 복구: inline-flex */
+    display: inline-flex; 
+    align-items: center; /* 수직 중앙 정렬 */
+    
+    /* 💡 버튼 높이 강제 (이전 단계에서 얇게 만들었던 값) */
+    height: 40px; /* 30px이 두꺼우면 26px, 24px 등으로 조정 */
+
+	/* 💡 글자 간격 (자간) 줄이기 */
+    letter-spacing: -0.01em; /* 이 값을 -0.01em, -0.03em 등으로 조절 */
+    
+    /* 캡슐 모양 복구 */
+    border-radius: 50px; 
+    
+    padding: 0 16px !important; /* 수직 패딩 0, 수평 패딩 유지 */
+    margin: 0px 6px; 
+    line-height: 1; 
+    
+    /* 색상 및 폰트 스타일 */
+    color: #ffffff; 
+    background-color: #333333; 
+    text-transform: none !important; 
+    font-weight: 600; 
+    font-size: 1.1em; 
+    
+    box-shadow: none; 
+    transition: all 0.2s ease-in-out;
+}
+
+/* 3. 텍스트(SPAN) 스타일: 마진/여백 제거 */
+.publication-page-style .link-buttons .button span {
+    display: block;
+    margin: 0; /* 마진 0으로 강제 */
+    padding: 0;
+    line-height: 1;
+    white-space: nowrap; 
+}
+
+// 아이콘과 텍스트 사이 여백
+.publication-page-style .link-buttons .button.icon span:first-child {
+  margin-right: 0.4em;
+}
+
+/* 5. 마우스 오버(Hover) 효과 */
+.publication-page-style .link-buttons .button:hover {
+    background-color: #555555; 
+    transform: none;
+    opacity: 1;
+}
+
+/* ========================================= */
+/* 논문 리스트 페이지 캡슐형 버튼 스타일 */
+/* ========================================= */
+
+/* 2. 개별 버튼 스타일: 높이 강제 및 가로 정렬 */
+#pub-list-contents .link-buttons .button {
+    /* 💡 가로 정렬 복구: inline-flex */
+    display: inline-flex; 
+    align-items: center; /* 수직 중앙 정렬 */
+    
+    /* 💡 버튼 높이 강제 (이전 단계에서 얇게 만들었던 값) */
+    height: 25px; /* 30px이 두꺼우면 26px, 24px 등으로 조정 */
+
+	/* 💡 글자 간격 (자간) 줄이기 */
+    letter-spacing: -0.01em; /* 이 값을 -0.01em, -0.03em 등으로 조절 */
+    
+    /* 캡슐 모양 복구 */
+    border-radius: 50px; 
+    
+    padding: 0 8px !important; /* 수직 패딩 0, 수평 패딩 유지 */
+    margin: 0px 2px; 
+    line-height: 1; 
+    
+    /* 색상 및 폰트 스타일 */
+    background: #f3f3f3;
+    color: #333;
+
+    text-transform: none !important; 
+    font-weight: 500; 
+    font-size: 1.0em; 
+    
+    box-shadow: none; 
+    transition: all 0.2s ease-in-out;
+}
+
+/* 3. 텍스트(SPAN) 스타일: 마진/여백 제거 */
+#pub-list-contents .link-buttons .button span {
+    display: block;
+    margin: 0; /* 마진 0으로 강제 */
+    padding: 0;
+    line-height: 1;
+    white-space: nowrap; 
+}
+
+// 아이콘과 텍스트 사이 여백
+#pub-list-contents .link-buttons .button.icon span:first-child {
+  margin-right: 0.4em;
+}
+
+/* 5. 마우스 오버(Hover) 효과 */
+#pub-list-contents .link-buttons .button:hover {
+    background: #e6e6e6;
+    color: #000;
+}
+
+#pub-list-contents .link-buttons .button.disabled {
+  pointer-events: none;     /* 클릭 불가 */
+  opacity: 0.5;             /* 시각적으로 흐리게 */
+  cursor: default;          /* 손가락 커서 비활성화 */
+  text-decoration: none;
+}
+
+#pub-list-contents .link-buttons .button.disabled:hover {
+  background: inherit;      /* hover 시 배경 변화 없음 */
+  color: inherit;
+}
+
+
+/* ========================================= */
+/* 4. 아이콘 스타일 통합 (FA4 + Academicons) - 최종본 */
+/* ========================================= */
+
+/* 💡 (A) Font Awesome 4 아이콘(fa-) 스타일 */
+.publication-page-style .link-buttons .button.icon[class*="fa-"]::before {
+    font-family: 'FontAwesome' !important;
+    font-weight: 400 !important; /* FA4는 400(Normal) */
+    
+    /* 공통 스타일 개별 적용 */
+    margin-right: 4px; 
+    font-size: 0.9em; 
+    position: static; 
+    top: auto; 
+}
+
+/* 💡 (B) Academicons 아이콘(ai-) 스타일 */
+.publication-page-style .link-buttons .button.icon[class*="ai-"]::before {
+    /* [핵심 수정] 
+       템플릿의 'FontAwesome' 폰트 강제 적용을 덮어쓰기 위해
+       'Academicons' 폰트를 !important 로 직접 지정합니다.
+       
+       academicons.css 파일이 content(모양)를 담당하고,
+       이 코드는 font-family(글꼴)를 담당합니다.
+    */
+    font-family: 'Academicons' !important;
+    font-weight: 400 !important; /* Academicons는 400(Normal) */
+    
+    /* 크기 및 위치 조정 */
+    margin-right: 4px; 
+    position: relative;
+    font-size: 1.1em;
+    top: 0.05em; 
+}

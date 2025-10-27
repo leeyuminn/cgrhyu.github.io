@@ -46,7 +46,7 @@ Language:
 
 <p/>
 
-<div id="contents" class="row">
+<div id="pub-list-contents" class="row">
 
 <script>
 // https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
@@ -135,13 +135,54 @@ function onSelect() {
 
 			contents_code += '{0}<br/>'.format(pub.authors);
 			contents_code += '{0}<br/>'.format(pub.conference_journal_full);
+
+  			// 🔹 links 리스트를 버튼으로 렌더링
+  			if ('links' in pub && pub.links.length > 0)
+  			{
+  				contents_code += '<div class="link-buttons">';
+  				for (let i = 0; i < pub.links.length; i++) {
+  					const item = pub.links[i];
+  					const key = Object.keys(item)[0];
+  					const url = item[key];
+  
+  					// 버튼 아이콘 결정
+  					let icon_class = '';
+  					if (key === 'Publisher') icon_class = 'ai ai-doi';
+  					else if (key === 'arXiv') icon_class = 'ai ai-arxiv';
+  					else if (key === 'Video') icon_class = 'fa fa-youtube-play';
+  					else if (key === 'Slides (PDF)') icon_class = 'fa fa-file-pdf-o';
+  					else if (key === 'Slides (PPTX)') icon_class = 'fa fa-file-powerpoint-o';
+  					else if (key === 'Code') icon_class = 'fa fa-github';
+  					else icon_class = 'fa fa-link'; // 기본 아이콘
+  
+					// 🔸 url이 비어있으면 클릭 불가 (disabled 스타일 적용)
+					if (url && url.trim() !== '') {
+						contents_code += `
+						  <a href="${url}" rel="noopener noreferrer" target="_blank" class="button icon">
+							<span class="${icon_class}"></span>
+							<span>${key}</span>
+						  </a>
+						`;
+					} else {
+						contents_code += `
+						  <a class="button icon disabled" title="Unavailable">
+							<span class="${icon_class}"></span>
+							<span>${key}</span>
+						  </a>
+						`;
+					}
+  				}
+  				contents_code += '</div>';
+  			}
+  
+			// legacy code for legacy additional info data
 			if('additional' in pub)
 				contents_code += '{0}<br/>'.format(pub.additional);
 			contents_code += '</div>';
 		}
 	}
 
-	var contents = document.getElementById("contents");
+	var contents = document.getElementById("pub-list-contents");
 	contents.innerHTML = contents_code;
 }
 
