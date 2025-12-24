@@ -104,19 +104,19 @@ banner_style: style1
     </p>
     </div>
 	<div class="4u 12u$(small)">
-        <p>
-		<span class="image left"><img src="assets/people/changho-lee/changho-lee.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
-		<b>Changho Lee</b>
-		<font size="3">이창호</font><br/>
-		changholee@hanyang.ac.kr<br/>
-    </p>
-    </div>
-	<div class="4u 12u$(small)">
     	<p>
         <span class="image left"><img src="assets/people/dongju-jang/dongju-jang.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
         <b>Dongju Jang</b>
         <font size="3">장동주</font><br/>
 		ehdwngudwn@gmail.com<br/>
+    </p>
+    </div>
+	<div class="4u 12u$(small)">
+        <p>
+		<span class="image left"><img src="assets/people/changho-lee/changho-lee.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
+		<b>Changho Lee</b>
+		<font size="3">이창호</font><br/>
+		changholee@hanyang.ac.kr<br/>
     </p>
     </div>
 
