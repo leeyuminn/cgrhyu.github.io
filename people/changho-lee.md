@@ -13,7 +13,7 @@ show_tile: false
 
 B.S in Computer Science, Hanyang University, Seoul, Korea, Feb.2026<br>
 Room No. 509, IT.BT Building<br>
-e-mail: <changholee@hanyang.ac.kr>
+e-mail: changholee@hanyang.ac.kr
 <p/>
 
 <a target="_blank" rel="noopener noreferrer" href="http://cs.hanyang.ac.kr/">Department Of Computer Science</a>
