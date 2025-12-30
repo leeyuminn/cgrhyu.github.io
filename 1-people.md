@@ -114,7 +114,7 @@ banner_style: style1
 	<div class="4u 12u$(small)">
         <p>
 		<span class="image left"><img src="assets/people/changho-lee/changho-lee.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
-		<b>Changho Lee</b>
+		<b><a href ="people/changho-lee.html">Changho Lee</a></b>
 		<font size="3">이창호</font><br/>
 		changholee@hanyang.ac.kr<br/>
     </p>
