@@ -27,15 +27,6 @@ var publications_kor = [
         'type': 'extended_abstract',
     },
     {
-        'title': '삽 기반 조작 동작과 메타 정책을 통한 사족보행 로봇의 물체 수집 전략 학습',
-        'representative_img':'assets/publications/domestic/2025-kcgs-ScoopTossDump.png',
-        'year': 2025,
-        'authors': '백찬우, 이윤상',
-        'conference_journal_full': '한국컴퓨터그래픽스학회 2025년 학술대회 논문집, 101-102, 2025.07.',
-        'additional': '<a href="https://gitcgr.hanyang.ac.kr/publications/domestic/2025-kcgs-ScoopTossDump.pdf" rel="noopener noreferrer" target="_blank">[article]</a>',
-        'type': 'extended_abstract',
-    },
-    {
         'title': 'IB-LBM 시뮬레이션을 이용한 물고기 동작 정책 학습',
         'representative_img':'assets/publications/domestic/2024-kcgs-FishRL.png',
         'year': 2024,
