@@ -9,7 +9,7 @@ show_tile: false
 	<div class="inner">
 		<span class="image left"><img src="../assets/people/eunho-jung/eunho-jung.jpg"  /></span>
 
-## Eunho Jung
+<h2>Eunho Jung</h2>
 
 M.S in <a target="_blank" rel="noopener noreferrer" href="http://cs.hanyang.ac.kr/">Department Of Computer Science</a>, <a target="_blank" rel="noopener noreferrer" href="https://www.hanyang.ac.kr/">Hanyang University</a>, Aug.2025<br>
 B.S in <a target="_blank" rel="noopener noreferrer" href="http://cs.hanyang.ac.kr/">Department Of Computer Science</a>, <a target="_blank" rel="noopener noreferrer" href="https://www.hanyang.ac.kr/">Hanyang University</a>, Aug.2023<br>
@@ -22,14 +22,15 @@ e-mail: jho6394@hanyang.ac.kr
 </div>
 </section>
 
-## Research Interests
+<h2>Research Interests</h2>
+
 Physics-based Reinforcement Learning
 <br>
 Human Motion Generation
 <br>
 <br>
 
-## Publications
+<h2>Publications</h2>
 <div class="paper">
 <span class="info right">
 <a target="_black" rel="noopener noreferrer" href="https://gitcgr.hanyang.ac.kr/publications/domestic/2024-kcgs-ButterflyRL.pdf">강화학습을 이용한 나비의 비행 동작 생성</a>
