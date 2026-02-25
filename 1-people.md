@@ -62,10 +62,6 @@ banner_style: style1
 	</p>
 	</div>
 </div>
-
-<p/>
-
-<h2>M.S. Students</h2>
 <div class="row">	
 	<div class="4u 12u$(small)">
 	<p>
@@ -75,16 +71,11 @@ banner_style: style1
 		bcw0430@hanyang.ac.kr<br/>
 	</p>
 	</div>
+</div>
+<p/>
 
-	<div class="4u 12u$(small)">
-	<p>
-		<span class="image left"><img src="assets/people/hauk-nam/hauk-nam.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
-		<b><a href="people/hauk-nam.html">Hauk Nam</a></b>
-		<font size="3">남하욱</font><br/>
-		namhoyog@naver.com<br/>
-	</p>
-	</div>
-
+<h2>M.S. Students</h2>
+<div class="row">	
 	<div class="4u 12u$(small)">
     <p>
 		<span class="image left"><img src="assets/people/yumin-lee/yumin-lee.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -93,8 +84,6 @@ banner_style: style1
 		yum0315@hanyang.ac.kr<br/>
     </p>
     </div>
-</div>
-<div class="row">
 	<div class="4u 12u$(small)">
     <p>
 		<span class="image left"><img src="assets/people/kyungeon-byeon/kyungeon-byeon.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -111,6 +100,8 @@ banner_style: style1
 		ehdwngudwn@gmail.com<br/>
     </p>
     </div>
+</div>
+<div class="row">
 	<div class="4u 12u$(small)">
         <p>
 		<span class="image left"><img src="assets/people/changho-lee/changho-lee.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -173,6 +164,14 @@ banner_style: style1
 <div class="row">
 	<div class="4u 12u$(small)">
 	<p>
+		<span class="image left"><img src="assets/people/hauk-nam/hauk-nam.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
+		<b><a href="people/hauk-nam.html">Hauk Nam</a></b>
+		<font size="3">남하욱</font><br/>
+		namhoyog@naver.com<br/>
+	</p>
+	</div>
+	<div class="4u 12u$(small)">
+	<p>
 		<span class="image left"><img src="assets/people/bokyeong-jang/bokyeong-jang.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
 		<b><a href="people/bokyeong-jang.html">Bokyeong Jang</a></b>
 		<font size="3">장보경</font><br/>
@@ -180,7 +179,6 @@ banner_style: style1
 		M.S., Aug. 2025<br/>
 	</p>
 	</div>
-	
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/eunho-jung/eunho-jung.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -191,6 +189,8 @@ banner_style: style1
 	</p>
 	</div>
 
+</div>
+<div class="row">
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/minsu-kim/minsu-kim.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -200,9 +200,6 @@ banner_style: style1
 		M.S., Aug. 2025<br/>
 	</p>
 	</div>
-
-</div>
-<div class="row">
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/wanuk-choi/wanuk-choi.png" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -212,7 +209,6 @@ banner_style: style1
 		Post Doc. until Apr. 2025<br/>
 	</p>
 	</div>
-
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/minji-kang/minji-kang.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -223,7 +219,8 @@ banner_style: style1
 		Researcher until Apr. 2025<br/>
 	</p>
 	</div>
-
+</div>
+<div class="row">
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/jeongmin-lee/jeongmin-lee.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
@@ -233,8 +230,6 @@ banner_style: style1
 		M.S., Aug. 2022<br/>
 	</p>
 	</div>
-</div>
-<div class="row">
 	<div class="4u 12u$(small)">
 	<p>
 		<span class="image left"><img src="assets/people/chaejun-sohn/chaejun.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
