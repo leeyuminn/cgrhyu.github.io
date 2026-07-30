@@ -21,14 +21,14 @@ var publications_eng = [
 		'authors': 'Hauk Nam, Changho Lee, Yoonsang Lee',
 		'conference_journal': 'SIGGRAPH',
 		'year': 2026,
-		'conference_journal_full': 'To appear in SIGGRAPH 2026 Posters',
+		'conference_journal_full': 'SIGGRAPH 2023 Posters, Article No.: 23, July 2026',
 		'representative_img': 'assets/publications/2026-learning-surfing-like/thumb-learning-surfing-like.png',
 		'video_iframe': '<iframe width="730" height="411" src="https://www.youtube.com/embed/Vf1hafwHSmM" title="Learning Surfing-like Balance without Water Simulation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
 		'project_page': 'publications/2026-learning-surfing-like.html',
 		'type': 'paper',
 		'links':
 			[
-				{'Publisher': ''},
+				{'Publisher': 'https://doi.org/10.1145/3799825.3818707'},
 				{'arXiv': ''},
 				{'Video': 'https://youtu.be/Vf1hafwHSmM'},
 			],
