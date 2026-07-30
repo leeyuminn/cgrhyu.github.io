@@ -17,8 +17,8 @@ banner_style: style0
 
 <li><h3>[2026.04] Paper accepted to TVCG (<a href="publications/2026-nmp.html" rel="noopener noreferrer" target="_blank">NMP</a>)</h3></li>
 
-<li><h3>[2026] Prof. Lee is serving on the Technical Papers Committee, SIGGRAPH Asia 2026</h3></li>
-<li><h3>[2026] Prof. Lee is serving as Organizing Committee Chair, KCGS 2026 Annual Conference</h3></li>
+<li><h3>[2026] Prof. Lee served on the Technical Papers Committee, SIGGRAPH Asia 2026</h3></li>
+<li><h3>[2026] Prof. Lee served as Organizing Committee Chair, KCGS 2026 Annual Conference</h3></li>
 
 <li><h3>[2026.04] Invited talk at the 2026 Asia Graphics Workshop on Intelligent Graphics: "From Physics-Based Control to Controllable, Adaptive, and Expressive Character Animation" (see <a href="7-talks.html" rel="noopener noreferrer" target="_blank">Talks</a>)</h3></li>
 
