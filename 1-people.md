@@ -95,7 +95,7 @@ banner_style: style1
 	<div class="4u 12u$(small)">
     	<p>
         <span class="image left"><img src="assets/people/dongju-jang/dongju-jang.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
-        <b>Dongju Jang</b>
+        <b><a href ="people/dongju-jang.html">Dongju Jang</a></b>
         <font size="3">장동주</font><br/>
 		ehdwngudwn@gmail.com<br/>
     </p>
