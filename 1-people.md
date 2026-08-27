@@ -120,16 +120,16 @@ banner_style: style1
 <div class="row">
 	<div class="4u 12u$(small)">
     	<p>
-        <span class="image left"><img src="assets/people/minjun-kim/minjun-kim.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
-        <b>Minjun Kim</b>
-        <font size="3">김민준</font><br/>
+        <span class="image left"><img src="assets/people/jinhwan-huhr/jinhwan-huhr.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
+        <b>Huhr Jinhwan</b>
+        <font size="3">허진환</font><br/>
     </p>
     </div>	
 	<div class="4u 12u$(small)">
     	<p>
-        <span class="image left"><img src="assets/people/jinhwan-huhr/jinhwan-huhr.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
-        <b>Huhr Jinhwan</b>
-        <font size="3">허진환</font><br/>
+        <span class="image left"><img src="assets/people/seunghoon-choi/seunghoon-choi.jpeg" style="max-width: 200px; height: auto; " alt="" /></span>
+        <b>Seunghoon Choi</b>
+        <font size="3">최승훈</font><br/>
     </p>
     </div>	
 	<!-- div class="4u 12u$(small)">
@@ -163,6 +163,13 @@ banner_style: style1
                 <font size="3">이예진</font><br/>
     </p>
     </div-->
+	<!--div class="4u 12u$(small)">
+    	<p>
+        <span class="image left"><img src="assets/people/minjun-kim/minjun-kim.jpg" style="max-width: 200px; height: auto; " alt="" /></span>
+        <b>Minjun Kim</b>
+        <font size="3">김민준</font><br/>
+    </p>
+    </div-->	
 	
 </div>
 <p/>
