@@ -54,3 +54,10 @@ In this course the students will learn the fundamentals of C++ language and prac
 [11 - Copy Constructor, Operator Overloading]: https://gitcgr.hanyang.ac.kr/courses/2023-fall-csd/lecture-slides/11 - Copy Constructor, Operator Overloading.pdf
 [12 - Template]: https://gitcgr.hanyang.ac.kr/courses/2023-fall-csd/lecture-slides/12 - Template.pdf
 [13 - Exception Handling]: https://gitcgr.hanyang.ac.kr/courses/2023-fall-csd/lecture-slides/13 - Exception Handling.pdf
+
+## Exams
+
+[Midterm], [Final]
+
+[Midterm]: https://gitcgr.hanyang.ac.kr/courses/2023-fall-csd/exams/midterm-csd-2023.pdf
+[Final]: https://gitcgr.hanyang.ac.kr/courses/2023-fall-csd/exams/final-csd-2023.pdf
