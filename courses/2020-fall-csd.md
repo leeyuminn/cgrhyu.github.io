@@ -56,3 +56,8 @@ In this course the students will learn the fundamentals of C++ language and prac
 [12 - Template]: https://gitcgr.hanyang.ac.kr/courses/2020-fall-csd/lecture-slides/12-Template.pdf
 [13 - Exception Handling]: https://gitcgr.hanyang.ac.kr/courses/2020-fall-csd/lecture-slides/13-ExceptionHandling.pdf
 
+## Exams
+
+[Final]
+
+[Final]: https://gitcgr.hanyang.ac.kr/courses/2020-fall-csd/exams/final-csd-2020 .pdf
