@@ -9,6 +9,11 @@ banner_style: style3
 <section id="one">
 <div class="inner">
 
+<h3>2026 Spring</h3>
+<ul>
+<li><a href="courses/2026-spring-cg.html">CSE4020 Computer Graphics <i><b>(with Modern OpenGL)</b></i> × 2</a></li>
+</ul>
+
 <h3>2025 Spring</h3>
 <ul>
 <li><a href="courses/2025-spring-cg.html">CSE4020 Computer Graphics <i><b>(with Modern OpenGL)</b></i> × 2</a></li>
