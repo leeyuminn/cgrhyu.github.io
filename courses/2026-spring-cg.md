@@ -12,9 +12,25 @@ show_tile: false
   * Time / Location: Mon 09:00-13:00 / 508 IT.BT Building - Lecture & Lab
 
 ## Course Outline
-This course introduces the basic principles of computer graphics and the necessary mathematical concepts. 
-Topics incldues the movement and placement of objects (transformation), representation of shapes and appearance of 3D objects, representation of object or chracter animation, rendering pipeline, etc.
-In lab sessions, students learn how to use modern OpenGL, and are given time to check the concept of computer graphics learned in the lectures by writing their own OpenGL program.
+This course introduces the fundamental principles of computer graphics and the underlying mathematical concepts.
+Topics include object transformation and placement, representation of 3D shapes and appearance,
+object and character animation, and the structure of the rendering pipeline.
+
+In lab sessions, students explore these concepts through hands-on practice based on Modern OpenGL.
+By implementing and modifying their own OpenGL programs, students examine how core graphics concepts
+are realized in an actual graphics system and how different design choices affect the results.
+
+Modern OpenGL is used in lab sessions and assignments, instead of legacy OpenGL.
+
+## Lecture Guide & Objective
+This course aims to develop students’ understanding of the core concepts and mathematical foundations of computer graphics,
+and to enable them to implement, analyze, and explain these concepts within an actual graphics system.
+
+Lectures and lab sessions are designed to complement each other.
+Lab sessions are conducted as practice-oriented activities that allow students to explore and experiment with concepts introduced in lectures.
+
+AI tools may be used as learning aids; however, students are responsible for understanding the work they submit
+and for being able to explain their implementations and decisions.
 
 ## Schedule
 

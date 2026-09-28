@@ -11,12 +11,12 @@ banner_style: style3
 
 <h3>2026 Spring</h3>
 <ul>
-<li><a href="courses/2026-spring-cg.html">CSE4020 Computer Graphics <i><b>(with Modern OpenGL)</b></i> × 2</a></li>
+<li><a href="courses/2026-spring-cg.html">CSE4020 Computer Graphics <i>(with Modern OpenGL)</i></a></li>
 </ul>
 
 <h3>2025 Spring</h3>
 <ul>
-<li><a href="courses/2025-spring-cg.html">CSE4020 Computer Graphics <i><b>(with Modern OpenGL)</b></i> × 2</a></li>
+<li><a href="courses/2025-spring-cg.html">CSE4020 Computer Graphics <i>(with Modern OpenGL)</i> × 2</a></li>
 </ul>
 
 
@@ -29,7 +29,7 @@ banner_style: style3
 
 <h3>2023 Spring</h3>
 <ul>
-<li><a href="courses/2023-spring-cg.html">CSE4020 Computer Graphics <i><b>(with Modern OpenGL)</b></i> × 2</a></li>
+<li><a href="courses/2023-spring-cg.html">CSE4020 Computer Graphics <i>(with Modern OpenGL)</i> × 2</a></li>
 <li><a href="courses/2023-spring-senior.html">Senior Projects</a></li>
 </ul>
 
