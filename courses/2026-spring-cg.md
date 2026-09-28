@@ -69,9 +69,121 @@ In lab sessions, students learn how to use modern OpenGL, and are given time to 
 
 ## Projects
 
-| Project 1: Basic OpenGL Viewer |
+| Project 1: [Basic OpenGL Viewer] |
 
-| Project 2: Designing a Mesh-Based Scene |
+<div class="row">
+<div class="6u 12u$(small)">
+이채원
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/dJp6oonhx90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
 
-| Project 3: Designing a BVH Viewer for Motion-Related Applications |
+<div class="6u 12u$(small)">
+임지오
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/DMuZusfIN94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
 
+<div class="6u 12u$(small)">
+전주찬
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/fHXAfNU_mSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+</div>
+<br/>
+
+| Project 2: [Designing a Mesh-Based Scene] |
+
+<div class="row">
+<div class="6u 12u$(small)">
+김남호
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/ZH-0NLbrEXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+<div class="6u 12u$(small)">
+성현주
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/wOw3N6dSoG0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+<div class="6u 12u$(small)">
+이채원
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/wAAdhi0NtIc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+<div class="6u 12u$(small)">
+정창운
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/UsYErUe8PRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+<div class="6u 12u$(small)">
+김도연
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/U7t0nXl7J-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+<div class="6u 12u$(small)">
+박정근
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/X7nMq5f1_jc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+<div class="6u 12u$(small)">
+안동현
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/3zk39pVPFl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+<div class="6u 12u$(small)">
+안태영
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/bAUwg3f1ev0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+</div>
+<br/>
+
+| Project 3: [Designing a BVH Viewer for Motion-Related Applications] |
+
+<div class="row">
+<div class="6u 12u$(small)">
+김남호
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/2D0vDb-9wOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+<div class="6u 12u$(small)">
+유정민
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/T9uC4EcESD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+<div class="6u 12u$(small)">
+성현주
+<div id="iframe_container"> <div id="iframe">
+<iframe width="320" height="320" src="https://www.youtube.com/embed/jC4CIDok57k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+</div>
+
+</div>
+
+[Basic OpenGL Viewer]: https://gitcgr.hanyang.ac.kr/courses/2026-spring-cg/projects/Project1-2026.pdf
+[Designing a Mesh-Based Scene]: https://gitcgr.hanyang.ac.kr/courses/2026-spring-cg/projects/Project2-2026.pdf 
+[Designing a BVH Viewer for Motion-Related Applications]: https://gitcgr.hanyang.ac.kr/courses/2026-spring-cg/projects/Project3-2026.pdf
