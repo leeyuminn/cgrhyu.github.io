@@ -1,5 +1,14 @@
 var publications_kor = [
     {
+        'title': '생체 모방 나비 비행을 위한 변형 가능한 날개 모델링',
+        'representative_img':'assets/publications/domestic/2026-kcgs-DeformableButterfly.png',
+        'year': 2026,
+        'authors': '이유민, 장이권, 이윤상',
+        'conference_journal_full': '한국컴퓨터그래픽스학회 2026년 학술대회 논문집, 101-102, 2026.07.',
+        'additional': '<a href="https://gitcgr.hanyang.ac.kr/publications/domestic/2026-kcgs-butterfly-modeling.pdf" rel="noopener noreferrer" target="_blank">[article]</a>',
+        'type': 'extended_abstract',
+    },
+    {
         'title': '삽 기반 조작 동작과 메타 정책을 통한 사족보행 로봇의 물체 수집 전략 학습',
         'representative_img':'assets/publications/domestic/2025-kcgs-ScoopTossDump.png',
         'year': 2025,
